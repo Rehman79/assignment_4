@@ -1,6 +1,6 @@
 # assignment_4
     
-**Overview**
+**Overview:**
 This project demonstrates how to integrate networking and API calls in a Flutter app using the http package and Provider for state management. The app fetches data from a public API (JSONPlaceholder) and displays it in a list view. The data is automatically loaded when the app starts, ensuring a seamless user experience.
 
 
@@ -36,6 +36,6 @@ Launched the app with the home screen.
 **Error Handling:** Displayed appropriate error messages in the UI in case of failed API calls.
 **Loading Indicator:** Showed a loading indicator while data is being fetched.
 
-**Conclusion**
+**Conclusion:**
 
 This project demonstrates a clean and modular approach to integrating API calls in a Flutter app, using best practices for state management and UI design.
