@@ -10,14 +10,14 @@ This project demonstrates how to integrate networking and API calls in a Flutter
 2. Created a basic Flutter project structure.
 3. Create the Data Provider.
 
-**File: post.dart**
+**File: post.dart:**
 Implemented a PostData class using ChangeNotifier to manage the state of the fetched data.
 Defined methods for making API calls to fetch posts and updating the state accordingly.
 Included basic error handling to display error messages in case of failed API calls.
 
 **Design the UI**
 
-**File: list_view.dart**
+**File: list_view.dart:**
 Created the list_view widget to display the fetched posts in a ListView.builder.
 Managed different UI states: **loading, error, and displaying** the **data**.
 Used **initState()** in a StatefulWidget to automatically fetch data when the app starts.
@@ -25,15 +25,17 @@ Used **initState()** in a StatefulWidget to automatically fetch data when the ap
 
 **Set Up the Main App**
 
-**File: main.dart**
+**File: main.dart:**
 Configured the PostProvider using ChangeNotifierProvider to provide the data to the list_view widget.
 Launched the app with the home screen.
 
 **Features**
-**Automatic Data Fetching**: The app fetches data automatically when the widget is initialized, improving user experience.
+
+**Automatic Data Fetching:** The app fetches data automatically when the widget is initialized, improving user experience.
 **State Management:** Managed the app's state using the Provider package.
 **Error Handling:** Displayed appropriate error messages in the UI in case of failed API calls.
 **Loading Indicator:** Showed a loading indicator while data is being fetched.
 
 **Conclusion**
+
 This project demonstrates a clean and modular approach to integrating API calls in a Flutter app, using best practices for state management and UI design.
