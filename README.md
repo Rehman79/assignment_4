@@ -29,11 +29,14 @@ Used **initState()** in a StatefulWidget to automatically fetch data when the ap
 Configured the PostProvider using ChangeNotifierProvider to provide the data to the list_view widget.
 Launched the app with the home screen.
 
-**Features**
+**Features:**
 
 **Automatic Data Fetching:** The app fetches data automatically when the widget is initialized, improving user experience.
+
 **State Management:** Managed the app's state using the Provider package.
+
 **Error Handling:** Displayed appropriate error messages in the UI in case of failed API calls.
+
 **Loading Indicator:** Showed a loading indicator while data is being fetched.
 
 **Conclusion:**
