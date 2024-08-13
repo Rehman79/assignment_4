@@ -4,7 +4,7 @@
 This project demonstrates how to integrate networking and API calls in a Flutter app using the http package and Provider for state management. The app fetches data from a public API (JSONPlaceholder) and displays it in a list view. The data is automatically loaded when the app starts, ensuring a seamless user experience.
 
 
-**Set Up the Project****
+**Set Up the Project**
 
 1. Added the **http and provider packages** to **pubspec.yaml**.
 2. Created a basic Flutter project structure.
